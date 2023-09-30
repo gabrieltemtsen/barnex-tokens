@@ -1,13 +1,23 @@
-# Sample Hardhat Project
+# Swiss Barnex Token
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This is an ERC20 Token Barnex deployed on Swisstronik EVM Testnet .
 
-Try running some of the following tasks:
+### BountyToken Contract Address (SwissTronik EVM Testnet)
+* Contract Address: 0x1148120c28a9597Efe77BaaE01989129406966A0
+
+### Environment Variables(s)
+
+
+* PRIVATE_KEY= ""
+
+To Deploy run the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
+npm install
+npx hardhat compile
 npx hardhat run scripts/deploy.ts
+npx hardhat run scripts/mint.ts
+
+
+
 ```
